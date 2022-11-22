@@ -1,0 +1,263 @@
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-calendars/styles/material.css";
+
+.sidebar {
+  box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
+}
+.nav-item,
+.navbar {
+  z-index: 10000;
+}
+@media  screen and (max-width:800px) {
+  .sidebar{
+    z-index: 10000000;
+  }
+}
+
+.e-dlg-center-center, .e-quick-popup-wrapper.e-device{
+  z-index: 1000000 !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(216, 216, 216);
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* color-picker style  */
+
+ #preview {
+  background: transparent
+    url('https://ej2.syncfusion.com/react/demos/src/color-picker/images/pen.png')
+    no-repeat;
+  display: inline-block;
+  height: 80px;
+  margin: 10px 0;
+  min-width: 300px;
+  max-width: 600px;
+  background-color: #008000;
+}
+
+.e-input-group:not(.e-float-icon-left), .e-input-group.e-success:not(.e-float-icon-left), .e-input-group.e-warning:not(.e-float-icon-left), .e-input-group.e-error:not(.e-float-icon-left), .e-input-group.e-control-wrapper:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-success:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-warning:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left){
+  border: 25px;
+  
+}
+
+/* .container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+} */
+
+.container > form {
+  width: 70%;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+}
+pre {
+  width: 70%;
+  color: #fff;
+  font-size: larger;
+}
+
+/* Code for the nav for the TABS */
+
+/* Remove browser defaults */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+ }
+
+ /* .App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+ } */
+
+ /* Tab Container */
+.Tabs {
+  width: 80%;
+  height: auto;
+  min-height: 400px;
+  /*background-image: url('C:/Users/Erick Abraham/Documents/Eacelab/Cms/client/src/assets/trees.jpg');*/
+  /* margin: 3.5rem auto 1.5rem; */
+  padding: 2rem 1rem;
+  color: #E8F0F2;
+  border-radius: 2rem;
+  @media (max-width: 769px) {
+   padding: 2rem 0;
+   margin: 2rem auto 1.5rem;
+   font: 10;
+  }
+ }
+
+ .image{
+  background-image: url('C:/Users/user 2020/Desktop/new/cms/client/src/assets/background.jpg');
+  width: 100%;
+  height: 100%;
+ }
+
+ .Tab {
+  width: 80%;
+  height: auto;
+  min-height: 400px;
+  /*background-image: url('C:/Users/Erick Abraham/Documents/Eacelab/Cms/client/src/assets/trees.jpg');*/
+  margin: 3.5rem auto 1.5rem;
+  padding: 2rem 1rem;
+  color: #E8F0F2;
+  border-radius: 2rem;
+  @media (max-width: 769px) {
+   padding: 2rem 0;
+   margin: 2rem auto 1.5rem;
+   font: 10;
+  }
+ }
+
+ ul.nav {
+  width: 60%;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #39A2DB;
+  border-radius: 2rem;
+  padding-left: 0px;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+ul.nav li {
+  width: 50%;
+  padding: 1rem;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.7s;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+
+ul.nav li:nth-child(2) {
+  border-radius: 0;
+  /* border-bottom-right-radius: 2rem; */
+  /* border-top-right-radius: 2rem; */
+}
+
+ul.nav li:nth-child(3) {
+  border-radius: 0;
+  /* border-bottom-right-radius: 2rem; 
+  border-top-right-radius: 2rem; */
+}
+/* .e-calendar .e-content span.e-day, .e-bigger.e-small .e-calendar .e-content span.e-day {
+  border: 1px solid;
+  color:#fff;
+} */
+
+
+/* .e-calendar .e-content td:hover span.e-day, .e-calendar .e-content td:focus span.e-day, .e-bigger.e-small .e-calendar .e-content td:hover span.e-day, .e-bigger.e-small .e-calendar .e-content td:focus span.e-day {
+  background-color: r;
+  border: 2px solid;
+  color: #212529;
+} */
+
+/* .e-calendar {
+  background-color: peachpuff;
+  border: 3px solid #1E293B;
+} */
+
+/* .e-calendar .e-header .e-title, .e-bigger.e-small .e-calendar .e-header .e-title {
+  color: black;
+  font-size: 20px;
+} */
+/* .e-calendar .e-header span, .e-bigger.e-small .e-calendar .e-header span {
+  border: 1px solid;
+  color: chocolate;
+} */
+/* To specify background color and color  */
+/* .e-calendar .e-content td.e-focused-date.e-today span.e-day {
+  background-color: maroon;
+  color: #fff;
+} */
+
+/* .e-calendar .e-content thead, .e-bigger.e-small .e-calendar .e-content thead {
+  background: aquamarine;
+} */
+
+
+ul.nav li:nth-child(4) {
+  border-radius: 0;
+  border-bottom-right-radius: 2rem; 
+  border-top-right-radius: 2rem;
+}
+
+ul.nav li:hover {
+  background: rgba(50, 224, 196, 0.15);
+}
+ul.nav li.active {
+  background: #39A2DB;
+}
+
+/* The code below is for the Login tab */
+
+ul.navi {
+  width: 60%;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #39A2DB;
+  border-radius: 2rem;
+  padding-left: 0px;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+ul.navi li {
+  width: 50%;
+  padding: 1rem;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.7s;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+
+ul.navi li:nth-child(2) {
+  border-radius: 0;
+  border-bottom-right-radius: 2rem; 
+   border-top-right-radius: 2rem;
+}
+
+/* ul.navi li:nth-child(3) {
+  border-radius: 0;
+  border-bottom-right-radius: 2rem; 
+   border-top-right-radius: 2rem;
+} */
+
+ul.navi li:hover {
+  background: rgba(50, 224, 196, 0.15);
+}
+ul.navi li.active {
+  background: #39A2DB;
+}
